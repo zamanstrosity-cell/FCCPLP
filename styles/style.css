@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2|Lato|Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
+#nav-bar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17 px;
+  margin-top: 4px;
+  font-family: "Lato", sans-serif, Helvetica;
+}
+
+#nav-bar a:hover {
+  color: #000033;
+  transition: all 0.3s ease 0s;
+}
+
+.title {
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+#aboutus {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+#paragraph {
+  margin: 50px;
+  font-family: "Baloo", Helvetica, sans-serif;
+}
+
+#email {
+  width: 300px;
+  height: 20px;
+  border: none;
+  padding: 0;
+  margin-top: 30px;
+  font-family: "Oswald", sans-serif;
+}
+#submit {
+  cursor: pointer;
+  border: none;
+  border-radius: 40px;
+  margin-top: 10px;
+  font-family: "Lato", sans-serif;
+  width: 100px;
+  height: 20px;
+  height: fit-content;
+  background-color: khaki;
+}
+
+#info {
+  text-align: center;
+  font-family: "Lato", Helvetica;
+}
+
+#video {
+  margin: 60px;
+  border-color: khaki;
+  border-width: 5px;
+}
+
+#products {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+
+.product > h2 {
+  margin-top: 15px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+.product > ol {
+  margin: 15px 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Baloo", sans-serif;
+}
+
+.product > ol > li {
+  margin: 5px;
+}
+
+.product > button {
+  cursor: pointer;
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+  width: 70px;
+  height: 40px;
+  font-family: "Baloo", sans-serif;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+
+#bricks-pic {
+  width: 200px;
+  height: 200px;
+}
+
+#footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #c0c0c0;
+  bottom: 0;
+}
+
+ul#contacts {
+  list-style: none;
+}
+
+ul#contacts li {
+  display: inline;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+#contacts a {
+  text-decoration: none;
+  color: #000033;
+  margin-left: 5px;
+  margin-right: 5px;
+}
