@@ -23,6 +23,7 @@
   header {
     flex-wrap: wrap;
   }
+
 }
 
 .logo {
@@ -164,8 +165,8 @@
 }
 
 #bricks-pic {
-  width: 200px;
-  height: 200px;
+  width: 70%;
+  height: 30%;
 }
 
 #footer {
